@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cryptobalanceapp:
+    image: cryptobalanceapp
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 4321:4321
