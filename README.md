@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This repo contains a PoC for a web app through which you can check the real-time balance of your cryptocurrency assets.  
+This repo contains a PoC for a web app through which you can check the real-time balance and value of your cryptocurrency assets.  
 This PoC in particular focuses on *Bitcoin* (₿) and *Ethereum* (⟠).  
 This can be a usefull app to have running 24/24 - 7/7 (for example) on a <a href="https://www.raspberrypi.org/">raspberrypi</a>  
 and ready to to be consulted whenever you need it through a web browser.  
@@ -43,7 +43,7 @@ Next go to `http://localhost:4321/wallet` and check your balance! 💰
 Refresh the page whenever you want to see the updated balance.  
 
 ## To do next
-* Threats the wallet addresses and the api key as secrets and inject them by following best practices
+* Treat the wallet addresses and the api key as secrets and inject them by following best practices
 * Implement proper authentication to the web-app
 * Expand on this template to build a production grade crypto balance app!
 
